@@ -376,14 +376,34 @@
                 <h2>Controle de Acesso</h2>
             </div>
 
-            <p>...</p>
-
             <div id="acesso-solicitacao">
                 <div class="tim-title">
                     <h3>Solicitação</h3>
                 </div>
 
-                <p>...</p>
+                <p>
+                    Realiza a solicitação de acesso para um determinado usuário.
+                    Na tela inicial será exibido um formulário para a inclusão de uma solicitação
+                    e uma lista com todas as solicitações cadastradas para aquele usuário,
+                    com opção de exclusão.
+                </p>
+
+                <h4>Regras de Negócio</h4>
+                        
+                <ul>
+                    <li>Formulário para a inclusão da solicitação com os campos usuário, perfil e menu.</li>
+                    <li>Lista com todas as solicitações em aberto do usuário selecionado no formulário.</li>
+                    <li>O Solicitante deve escolher entre solicitar um perfil ou um menu, nunca os dois na mesma solicitação.</li>
+                    <li>Coluna de ação para excluir uma solicitação.</li>
+                </ul>
+
+                <h4>Mockup</h4>
+
+                <div class="row tim-row">
+                    <div class="col-md-12">
+                        <img src="assets/img/acesso-solicitacao-01.png" alt="Rounded Image" class="img-rounded img-responsive">
+                    </div>
+                </div>
             </div>
 
             <div id="acesso-aprovacao">
@@ -391,7 +411,26 @@
                     <h3>Aprovação</h3>
                 </div>
 
-                <p>...</p>
+                <p>
+                    Realiza a aprovação de acesso para um determinado usuário.
+                    Na tela inicial será exibida uma lista com todas as solicitações pendentes de aprovação para o usuário logado,
+                    com opção de aprovar ou recusar.
+                </p>
+
+                <h4>Regras de Negócio</h4>
+                        
+                <ul>
+                    <li>Lista com todas as solicitações em aberto do usuário logado.</li>
+                    <li>Coluna de ação para aprovar ou reprovar uma solicitação.</li>
+                </ul>
+
+                <h4>Mockup</h4>
+
+                <div class="row tim-row">
+                    <div class="col-md-12">
+                        <img src="assets/img/acesso-aprovacao-01.png" alt="Rounded Image" class="img-rounded img-responsive">
+                    </div>
+                </div>
             </div>
             <!--     end extras -->
         </div>
